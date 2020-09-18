@@ -3,3 +3,7 @@
  */
 
 const doubleChar = str => str.split('').map(char => `${char}${char}`).join('');
+
+console.log(doubleChar("String")); // "SSttrriinngg"
+console.log(doubleChar("Hello World!")); // "HHeelllloo  WWoorrlldd!!"
+console.log(doubleChar("1234!_ ")); // "11223344!!__  "
